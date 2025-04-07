@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+
+.top-bar {
+    background: #002c57;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sip {
+    background: #4CAF50;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.main-container {
+    padding: 10px;
+}
+
+.upi-section {
+    background: #e0e0e0;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.quick-actions, .services, .extras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.action, .service, .extra {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    width: 22%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action img, .service img, .extra img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.action p, .service p, .extra p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.balance-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: white;
+    margin-top: 10px;
+}
+
+.scan-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: #002c57;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+}
